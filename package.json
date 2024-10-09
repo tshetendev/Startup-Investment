@@ -1,0 +1,36 @@
+{
+  "name": "startupinvestment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "GESARinvestment",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "gitignore": "^0.7.0",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "path": "^0.12.7",
+    "shortid": "^2.2.16",
+    "startupinvestment": "file:",
+    "uuid": "^9.0.1",
+    "validator": "^13.12.0",
+    "xrpl": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
